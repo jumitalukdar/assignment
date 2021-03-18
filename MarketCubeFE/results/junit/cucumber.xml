@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.451437">
+<testcase classname="Test Sign-Up form" name="Validate error messages for Email" time="13.451437">
+<system-out><![CDATA[Given User is on Login Page.................................................passed
+When User clicks on Register here link......................................passed
+Then User click on Proceed as Vendor button.................................passed
+And I will wait for Page for load...........................................passed
+When User clicks on Register Button.........................................passed
+Then User will verify Email Required Message................................passed
+And I print all required fields.............................................passed
+Then I will quit all session................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

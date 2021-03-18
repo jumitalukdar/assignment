@@ -1,0 +1,478 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-18T00:49:26.688Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5062319315,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate Hundred results are displayed",
+        "description": "",
+        "id": "market-cube-functionality;validate-hundred-results-are-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62976458,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Home Page is Loaded",
+            "match": {
+              "location": "StepDefinition.verifyMarketCubeLogoIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36532194,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify by default Hundred results is selected in rows drop down",
+            "match": {
+              "location": "StepDefinition.verifyDropDownDefaultValue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434644551,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Scroll to Showing 1 to 100 label on the page",
+            "match": {
+              "location": "StepDefinition.scrollToShowingRecordsLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2069812389,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify count of number of rows is hundred",
+            "match": {
+              "location": "StepDefinition.verifyNumberOfRecordsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118155835,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will quit all session",
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Assignment"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-18T00:49:34.500Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4608251925,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate Filter Functionality",
+        "description": "",
+        "id": "market-cube-functionality;validate-filter-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38817148,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Home Page is Loaded",
+            "match": {
+              "location": "StepDefinition.verifyMarketCubeLogoIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3263755541,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I mouse hover the cryptocurrencies link and click Random",
+            "match": {
+              "location": "StepDefinition.mousehoverCyptoCurrencies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59795949,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user stores values of \"1\" record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.getNameOfRecord(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265209008,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Filters",
+            "match": {
+              "location": "StepDefinition.clickOnFilters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 269890983,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Price Filter",
+            "match": {
+              "location": "StepDefinition.clickOnPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83543316,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I selected thousand plus price filter option",
+            "match": {
+              "location": "StepDefinition.clickOnThousandPlus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516345915,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Apply Filter",
+            "match": {
+              "location": "StepDefinition.clickApply()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 533302033,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User validate correct records are displaying post filter",
+            "match": {
+              "location": "StepDefinition.verifyValueAfterFilters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136901036,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I will quit all session",
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Assignment"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-18T00:49:44.285Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4054567606,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validate Watchlist Functionality",
+        "description": "",
+        "id": "market-cube-functionality;validate-watchlist-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63863109,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Home Page is Loaded",
+            "match": {
+              "location": "StepDefinition.verifyMarketCubeLogoIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1346703136,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on Log In",
+            "match": {
+              "location": "StepDefinition.clickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203150094,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enter \"jumi.talukdar24@gmail.com\" email id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jumi.talukdar24@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.enterEmail(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106287803,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enter \"Tarang123##\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tarang123##",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83702936,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on Login button",
+            "match": {
+              "location": "StepDefinition.clickLogIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13887677356,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User add \"6\" record to watchlist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.addRecordToWatchList(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68090649,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user stores values of \"6\" record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.getNameOfRecord(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2085302684,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User add \"8\" record to watchlist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.addRecordToWatchList(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97841032,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user stores values of \"8\" record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.getNameOfRecord(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2068221809,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User navigates to WatchList Section",
+            "match": {
+              "location": "StepDefinition.navigateToWatchList()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19690334980,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User validate correct records were added to watch list",
+            "match": {
+              "location": "StepDefinition.verifyItemsAddedToWatchList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6742559287,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I remove all items from watchlist",
+            "match": {
+              "location": "StepDefinition.removeFromWatchlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 150920530,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I will quit all session",
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Assignment"
+          }
+        ]
+      }
+    ],
+    "name": "Market Cube Functionality",
+    "description": "",
+    "id": "market-cube-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Test.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

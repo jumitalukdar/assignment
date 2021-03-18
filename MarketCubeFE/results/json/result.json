@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-05T14:04:46.235Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2876003832,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate error messages for Email",
+        "description": "",
+        "id": "test-sign-up-form;validate-error-messages-for-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7232919318,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinition.userIsOnSignupPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65503668,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Register here link",
+            "match": {
+              "location": "StepDefinition.clickRegisterHere()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1752761508,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Proceed as Vendor button",
+            "match": {
+              "location": "StepDefinition.clickOnProceedAsVendor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3792400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I will wait for Page for load",
+            "match": {
+              "location": "StepDefinition.implicitWait()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1340582002,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Register Button",
+            "match": {
+              "location": "StepDefinition.clickOnRegisterButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34263181,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will verify Email Required Message",
+            "match": {
+              "location": "StepDefinition.verifyEmailReqdErrorMsg()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44843296,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I print all required fields",
+            "match": {
+              "location": "StepDefinition.printAllRequiredFields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86284916,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will quit all session",
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Sign-Up form",
+    "description": "",
+    "id": "test-sign-up-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Test.feature",
+    "tags": []
+  }
+]
